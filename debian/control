@@ -1,0 +1,12 @@
+Source: dtbocfg-ctrl
+Section: admin
+Priority: optional
+Maintainer: ikwzm <ichiro_k@ca2.so-net.ne.jp>
+Build-Depends: debhelper (>= 9), bzip2
+Standards-Version: 3.9.6
+Homepage: <https://github.com/ikwzm/dtbocfg-service>
+
+Package: dtbocfg-ctrl
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends} dtbocfg-kernel-module
+Description: Device Tree Blob Overlay Configuration File System Service.

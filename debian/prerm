@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+systemctl stop    device-tree-overlay.service
+systemctl disable device-tree-overlay.service
+

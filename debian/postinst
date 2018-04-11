@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+systemctl enable  device-tree-overlay.service
+systemctl start   device-tree-overlay.service
+
